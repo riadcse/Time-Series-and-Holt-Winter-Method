@@ -5,7 +5,14 @@ We’ve the dataset ‘DailyDelhiClimateTrain.csv’ for our task. I will apply 
 
 Few Output:
 
-![output1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+By seasonal_decompose method we can see the trend, cyclic pattern and variability of Mean Temperature through the year. 
+![output1](https://github.com/riadcse/Time-Series-and-Holt-Winter-Method/blob/master/assets/Picture1.png)
+
+Plotting the actual mean temperature, simple and double exponential smoothing.
+![output2](https://github.com/riadcse/Time-Series-and-Holt-Winter-Method/blob/master/assets/Picture2.png)
+
+Triple exponential smoothing is better for forecasting. Now, We’ll try to predicts next 3 years weather using our triple exponential smoothing. 
+![output2](https://github.com/riadcse/Time-Series-and-Holt-Winter-Method/blob/master/assets/Picture3.png)
 
 
 ## Support
